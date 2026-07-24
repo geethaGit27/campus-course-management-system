@@ -10,7 +10,7 @@ A web application for managing students, courses, enrollments, announcements, an
 Educational institutions often maintain student records, course enrollment, and communication manually or using disconnected systems. This results in inefficient data management, delayed communication, and difficulty tracking student progress.
 The proposed Campus Course Management System provides a centralized platform where students can register, log in securely, enroll in courses, view their dashboard, and receive notifications. Administrators can manage courses and student information through an intuitive web interface.
 
-Features
+**Features**
 Student
 •	Register 
 •	Login 
@@ -41,7 +41,7 @@ Frontend
 •	Axios 
 •	Context API / Redux Toolkit 
 
-Backend
+**Backend**
 •	Node.js 
 •	Express.js 
 •	JWT 
@@ -49,16 +49,16 @@ Backend
 •	Express Validator 
 •	Socket.io 
 
-Database
+**Database**
 •	MongoDB Atlas 
 •	Mongoose 
 
-Deployment
+**Deployment**
 •	Frontend → Vercel / Netlify 
 •	Backend → Render 
 •	Database → MongoDB Atlas 
 
-Folder Structure
+**Folder Structure**
 CampusCourseManagement/
 
 │
@@ -103,8 +103,8 @@ CampusCourseManagement/
 │
 └── README.md
 
-Database Collections
-Student
+**Database Collections**
+**Student**
 StudentID
 Name
 Email
@@ -114,21 +114,21 @@ Year
 Phone
 CreatedAt
 
-Course
+**Course**
 CourseID
 CourseName
 Faculty
 Credits
 Description
 
-Enrollment
+**Enrollment**
 EnrollmentID
 StudentID
 CourseID
 Date
 Status
 
-Notification
+**Notification**
 NotificationID
 StudentID
 Message
